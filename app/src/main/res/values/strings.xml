@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TaltalKnots</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="Restraint">Restraints</string>
+    <string name="Knot">Knots</string>
+    <string name="macrame">macrame</string>
+    <string name="architectpage">Camp Architect Pages</string>
+    <string name="knotList">Knots List</string>
+    <string name="checkList">Camp CheckList</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+</resources>

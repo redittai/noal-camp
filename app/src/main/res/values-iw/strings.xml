@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaltalKnots</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="Restraint">כפיתה</string>
+    <string name="Knot">קשרים</string>
+    <string name="macrame">מקרמה</string>
+    <string name="architectpage">דפי מהנדל</string>
+    <string name="knotList">רשימת קשרים</string>
+    <string name="checkList">החוג המחנאי</string>
+
+</resources>

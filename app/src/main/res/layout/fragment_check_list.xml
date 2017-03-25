@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="redittai.com.hanoalknots.CheckList">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מתקן תיקים"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.06" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מספר חוג"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.34" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שער"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:layout_weight=".5" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ספסלי ישיבה"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ספות זולה"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.46" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="לוח תלוי"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מתלה כביסה"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מתקן קלסרים"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.17" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="פח"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight="0.71" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="חדר הלבשה"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_weight=".07" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מתקן מזרונים"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_weight="0.19" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שונות"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:layout_gravity="end"
+            android:layout_weight=".6" />
+    </LinearLayout>
+
+</LinearLayout>
